@@ -1,0 +1,83 @@
+.text-content h2 {
+    font-family: 'Grechen Fuemen', cursive;
+    color: #000;
+    font-size: 76px;
+}
+
+.text-content p {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 282px;
+}
+
+.img-sec {
+    padding: 59px;
+}
+
+.img-sec img {
+    height: 75%;
+    width: 100%;
+}
+
+.img-sec h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.img-sec p {
+    font-size: 18px;
+}
+
+.sec-btn {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 9px 36px;
+    display: block;
+    margin: 31px auto auto auto;
+}
+
+.sec-btn:hover {
+    color: #fff;
+}
+
+@media (max-width: 1024.98px) {
+    .text-content p {
+        padding: 0px 122px;
+    }
+    .img-sec img {
+        height: auto;
+    }
+    .img-sec h6 {
+        font-size: 17px;
+    }
+    .img-sec p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .text-content h2 {
+        font-size: 62px;
+    }
+
+    .text-content p {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .text-content h2 {
+        font-size: 43px;
+    }
+
+    .text-content p {
+        padding: 0px 0px;
+    }
+}

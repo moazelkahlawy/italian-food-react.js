@@ -1,0 +1,21 @@
+.header{
+    height: 110vh;
+    min-height: 100%;
+    background-image: url('../assets/Header\ Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 768.98px) {
+    .header{
+        height: 81vh;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header{
+        height: 85vh;
+        overflow: visible;
+    }
+}

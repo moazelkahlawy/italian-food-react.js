@@ -1,0 +1,62 @@
+.sec-five {
+    padding: 21px 0 130px 0;
+}
+
+.sec-five .five-content {
+    margin-top: 162px;
+    --bs-gutter-x: 7.5rem;
+}
+
+.sec-five .five-content h5 {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 45px;
+}
+
+.sec-five .down-cnotent {
+    margin-top: 175px;
+}
+
+.sec-five .down-cnotent p {
+    font-size: 21px;
+    padding: 0px 136px;
+}
+
+.sec-five .down-cnotent span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    display: inline-block;
+    margin-top: 34px;
+}
+
+@media (max-width: 1024.98px) {
+    .sec-five .five-content {
+        --bs-gutter-x: 3.5rem;
+    }
+
+    .sec-five .down-cnotent p {
+        font-size: 19px;
+        padding: 0px 51px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .sec-five .five-content {
+        --bs-gutter-x: 1.5rem;
+    }
+
+    .sec-five .five-content h5 {
+        font-size: 38px;
+    }
+
+    .sec-five .down-cnotent p {
+        font-size: 17px;
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sec-five .down-cnotent p {
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+}

@@ -1,0 +1,147 @@
+.contact {
+    background-color: #27292c;
+    padding: 226px 0;
+    position: relative;
+}
+
+.contact h2 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 59px;
+}
+
+.contact p {
+    color: #fff;
+    font-size: 24px;
+    padding: 52px 114px;
+}
+
+.contact form .form-control {
+    display: inline-block;
+    width: 51%;
+    margin: auto;
+    padding: 8px 27px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.contact form input::placeholder {
+    font-size: 20px;
+}
+
+.contact form .form-control:focus {
+    box-shadow: none;
+}
+
+.contact form .btn {
+    margin-left: -55px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    background-color: #54524f;
+    border: 1px solid transparent;
+    padding: 11px 27px;
+    border-radius: 40px;
+}
+
+.leaf-contact .leaf-contact-one,
+.leaf-contact .leaf-contact-two {
+    position: absolute;
+    width: 21%;
+}
+
+.leaf-contact .leaf-contact-one {
+    right: 0;
+    top: -83px;
+}
+
+.leaf-contact .leaf-contact-two {
+    left: 0;
+    bottom: -223px;
+}
+
+@media (max-width: 1024.98px) {
+
+    .leaf-contact .leaf-contact-one,
+    .leaf-contact .leaf-contact-two {
+        width: 26%;
+    }
+
+    .leaf-contact .leaf-contact-one {
+        top: -60px;
+    }
+
+    .leaf-contact .leaf-contact-two {
+        bottom: -178px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .contact p {
+        font-size: 21px;
+        padding: 52px 77px;
+    }
+
+    .contact form .form-control {
+        width: 65%;
+    }
+
+    .leaf-contact .leaf-contact-one,
+    .leaf-contact .leaf-contact-two {
+        width: 33%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact {
+        padding: 125px 0;
+    }
+
+    .contact h2 {
+        font-size: 50px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        padding: 52px 0;
+    }
+
+    .contact form .form-control {
+        width: 100%;
+    }
+
+    .contact form .form-control {
+        padding: 6px 27px;
+        font-size: 17px;
+
+    }
+
+    .contact form input::placeholder {
+        font-size: 17px;
+    }
+
+    .contact form .btn {
+        margin-top: 10px;
+        margin-left: auto;
+        font-size: 14px;
+    }
+
+    .leaf-contact .leaf-contact-one,
+    .leaf-contact .leaf-contact-two {
+        width: 44%;
+    }
+
+    .leaf-contact .leaf-contact-one {
+        top: -62px;
+    }
+
+    .leaf-contact .leaf-contact-two {
+        bottom: -139px;
+    }
+}

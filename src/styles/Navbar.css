@@ -1,0 +1,34 @@
+.logo {
+    width: 100px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s border-bottom ease-in-out;
+}
+.nav-link:hover,
+.nav-link.active {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+
+@media (max-width: 768.98px) {
+    .logo {
+        width: 79px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo {
+        width: 63px;
+    }
+}

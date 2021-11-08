@@ -1,0 +1,119 @@
+.sec-four {
+    height: 110vh;
+    min-height: 100%;
+    background-image: url('../assets/Header\ Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sec-four h2,
+.sec-four p {
+    color: #fff;
+}
+
+.sec-four .line span {
+    width: 160px;
+    height: 8px;
+    background-color: white;
+    display: block;
+    margin: 39px auto;
+}
+
+.sec-four .pizza1 {
+    position: absolute;
+    top: 39%;
+    right: 21%;
+    width: 41%;
+}
+
+.sec-four .pizza2 {
+    position: absolute;
+    top: 82%;
+    right: 48%;
+    width: 27%;
+}
+
+.sec-four .leaf {
+    position: absolute;
+    top: -135px;
+    right: 0;
+    width: 90%;
+}
+
+@media (max-width: 1024.98px) {
+    .sec-four h2 {
+        font-size: 61px;
+    }
+
+    .sec-four .pizza1 {
+        top: 38%;
+        right: 10%;
+        width: 58%;
+    }
+
+    .sec-four .pizza2 {
+        width: 37%;
+    }
+
+    .sec-four .leaf {
+        top: -87px;
+        width: 97%;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .sec-four {
+        height: 90vh;
+    }
+
+    .sec-four h2 {
+        font-size: 55px;
+    }
+
+    .sec-four .pizza1 {
+        top: 42%;
+    }
+
+    .sec-four .leaf {
+        top: -32px;
+        width: 102%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sec-four {
+        height: 81vh;
+    }
+
+    .sec-four h2 {
+        font-size: 41px;
+    }
+
+    .sec-four p {
+        font-size: 15px;
+    }
+
+    .sec-four .line span {
+        width: 150px;
+        height: 7px;
+    }
+
+    .sec-four .pizza1 {
+        top: 59%;
+        right: 0%;
+        width: 71%;
+    }
+
+    .sec-four .pizza2 {
+        top: 88%;
+        right: 45%;
+        width: 43%;
+    }
+
+    .sec-four .leaf {
+        top: -39px;
+        width: 113%;
+    }
+}

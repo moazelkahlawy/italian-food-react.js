@@ -1,0 +1,44 @@
+.sec-two{
+    background-color: #27292c;
+}
+.sec-two .text-content h2 {
+    font-family: 'Grechen Fuemen', cursive;
+    color: #fff;
+    font-size: 76px;
+}
+
+.sec-two p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.sec-two-btn{
+    color: #000;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 9px 36px;
+    display: block;
+    margin: auto;
+}
+.sec-two-btn:hover{
+    color: #000;
+}
+
+@media (max-width: 768.98px){
+    .sec-two .text-content h2  {
+    font-size: 62px;
+}
+
+}
+
+@media (max-width: 575.98px){
+    .sec-two .text-content h2  {
+        font-size: 43px;
+}
+.sec-two p {
+    font-size: 15px;
+}
+}
